@@ -16,6 +16,7 @@ plt.show()
 
 # Thresholding
 (T, thresh) = cv2.threshold(blurred, 155, 255, cv2.THRESH_BINARY)
+# (img, threshold, cap_val, type)
 cv2.imshow("Threshold Binary", thresh)
 cv2.waitKey(0)
 (T, threshInv) = cv2.threshold(blurred, 155, 255, cv2.THRESH_BINARY_INV)

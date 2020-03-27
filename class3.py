@@ -83,4 +83,3 @@ coins = img.copy()
 cv2.drawContours(coins, cnts, -1, (0, 0, 255), 2)
 cv2.imshow("Coins", coins)
 cv2.waitKey(0)
-
